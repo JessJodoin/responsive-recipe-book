@@ -8,20 +8,22 @@ html {
 }
 
 h1,
-.serif-font {
-  font-family: "henderson sans basic", sans-serif;
+.sans-font {
+  font-family: "henderson sans", sans-serif;
 }
 
 .banner-content {
   text-shadow: 0 0 12px #fff;
-  position: absolute;
-  bottom: 0;
-  background-image: linear-gradient(to top, #fff, transparent);
+  background-image: linear-gradient(to bottom, #fff, transparent);
   width: 100%;
 }
 
 .push-11-2 {
   margin-bottom: 1.95rem;
+}
+
+.footer {
+  background-color: #900;
 }
 
 @media only screen and (min-width: 38em) {
