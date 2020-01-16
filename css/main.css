@@ -1,0 +1,57 @@
+html {
+  font-family: "pt serif pro", serif;
+  font-weight: 300;
+}
+
+.masthead {
+  background-color: #900;
+}
+
+h1,
+.serif-font {
+  font-family: "henderson sans basic", sans-serif;
+}
+
+.banner-content {
+  text-shadow: 0 0 12px #fff;
+  position: absolute;
+  bottom: 0;
+  background-image: linear-gradient(to top, #fff, transparent);
+  width: 100%;
+}
+
+.gradient {
+  background-image: linear-gradient(to bottom, #fff, transparent);
+}
+
+.push-11-2 {
+  margin-bottom: 1.95rem;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .text-cols {
+    column-count: 2;
+    column-gap: 25px;
+    column-width: 100px;
+  }
+
+  .text-span {
+    column-span: all;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .text-cols {
+    column-count: 3;
+    column-gap: 25px;
+    column-width: 100px;
+  }
+
+  .text-span {
+    column-span: all;
+  }
+
+}
