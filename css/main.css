@@ -22,7 +22,44 @@ h1,
   margin-bottom: 1.95rem;
 }
 
+.hover-box {
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 6px #999;
+}
+
+.hover-box-caption {
+  color: #000;
+}
+
+.hover-box:hover .hover-box-caption {
+  color: #900;
+  text-decoration: underline;
+}
+
+.hover-box-img {
+  transition: all .2s linear;
+}
+
+.hover-box:hover .hover-box-img,
+.hover-box:focus .hover-box-img {
+  transform: scale(1.1);
+}
+
+.view-more-btn {
+  color: #000;
+  background-color: #cdd;
+  border: 3px solid #cdd;
+}
+
+.view-more-btn:hover {
+  color: #fff;
+  background-color: #900;
+  border: 3px solid #900;
+}
+
 .footer {
+  color: #fff;
   background-color: #900;
 }
 
