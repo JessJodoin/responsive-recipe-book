@@ -7,6 +7,16 @@ html {
   background-color: #cdd;
 }
 
+.nav-links {
+  color: #000;
+  text-decoration: none;
+}
+
+.nav-links:hover {
+  background-color: #900;
+  color: #fff;
+}
+
 h1,
 .sans-font {
   font-family: "henderson sans", sans-serif;
@@ -14,7 +24,7 @@ h1,
 
 .banner-content {
   color: #900;
-  text-shadow: 0 0 12px #fff;
+  text-shadow: 0 0 3px #fff;
 }
 
 .push-11-2 {
