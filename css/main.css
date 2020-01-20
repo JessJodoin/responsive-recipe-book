@@ -4,7 +4,7 @@ html {
 }
 
 .masthead {
-  background-color: #900;
+  background-color: #cdd;
 }
 
 h1,
@@ -13,9 +13,8 @@ h1,
 }
 
 .banner-content {
+  color: #900;
   text-shadow: 0 0 12px #fff;
-  background-image: linear-gradient(to bottom, #fff, transparent);
-  width: 100%;
 }
 
 .push-11-2 {
@@ -59,11 +58,42 @@ h1,
 }
 
 .footer {
-  color: #fff;
-  background-color: #900;
+  color: #000;
+  background-color: #cdd;
+}
+
+svg {
+  color: #000;
+}
+
+svg:hover {
+  color: #900;
+}
+
+
+.foot-nav {
+  color: #000;
+  text-decoration: none;
+}
+
+.foot-nav:hover {
+  color: #900;
+  text-decoration: underline;
+}
+
+.foot-nav-current {
+  color: #900;
+  text-decoration: underline;
 }
 
 @media only screen and (min-width: 38em) {
+
+  .banner-content {
+    z-index: 100;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+  }
 
   .text-cols {
     column-count: 2;
