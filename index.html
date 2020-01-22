@@ -18,25 +18,34 @@
   </ul>
 
   <header class="masthead" role="banner">
-    <div class="pad-t pad-b center-content">
-      <i class="icon i-96">
-        <a href="index.html"><img src="images/whisk-logo.svg" alt="Whisk logo" aria-label="Whisk logo"></a>
-      </i>
+    <div>
+      <a href="index.html"><img src="images/whisk-logo.svg" alt="Whisk logo" aria-label="Whisk logo"></a>
     </div>
 
-    <nav>
-      <ul class="list-group gutter pad-t-2">
-        <li class="push-1-2 kilo"><a class="nav-links" href="#">Our Favourite Cookies</a></li>
+    <nav class="relative" role="navigation">
+      <input type="checkbox" class="nav-check" id="nav-check">
+      <label class="nav-label" for="nav-check">
+        <div class="container" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+      </label>
 
-        <li class="push-1-2 kilo"><a class="nav-links" href="#">Treat News and Trends</a></li>
+      <script>
+      function myFunction(x) {
+        x.classList.toggle("change");
+      }
+      </script>
 
-        <li class="push-1-2 kilo"><a class="nav-links" href="#">Top 10 Dessert Recipes</a></li>
-
-        <li class="push-1-2 kilo"><a class="nav-links" href="#">Delicious Cakes</a></li>
-
-        <li class="push-1-2 kilo"><a class="nav-links" href="#">Purchase Cookbook</a></li>
+      <ul class="list-group toggle-nav">
+        <li class="pad-t-1-4 pad-b-1-4 kilo"><a class="nav-links island-1-4" href="#">Our Favourite Cookies</a></li>
+        <li class="pad-t-1-4 pad-b-1-4 kilo"><a class="nav-links island-1-4" href="#">Treat News and Trends</a></li>
+        <li class="pad-t-1-4 pad-b-1-4 kilo"><a class="nav-links island-1-4" href="#">Top 10 Dessert Recipes</a></li>
+        <li class="pad-t-1-4 pad-b-1-4 kilo"><a class="nav-links island-1-4" href="#">Delicious Cakes</a></li>
+        <li class="pad-t-1-4 pad-b-1-4 kilo"><a class="nav-links island-1-4" href="#">Purchase Cookbook</a></li>
       </ul>
-    </nav>
+    <nav>
   </header>
 
   <main id="main" role="main">
