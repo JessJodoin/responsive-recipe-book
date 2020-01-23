@@ -20,9 +20,9 @@ html {
 
 .nav {
   display: none;
+  z-index: 100;
   position: absolute;
-  right: 0;
-  top: 100%;
+  left: 1em;
   width: 15em;
 }
 
@@ -37,7 +37,6 @@ html {
 
 .nav-label {
   cursor: pointer;
-  display: inline-block;
   width: 40px;
   height: 40px;
   position: absolute;
@@ -59,6 +58,10 @@ h1,
 .sans-font {
   font-family: "henderson sans", sans-serif;
   line-height: inherit;
+}
+
+.banner-img {
+  z-index: -1;
 }
 
 .banner-content {
@@ -170,7 +173,6 @@ svg:hover {
 @media only screen and (min-width: 38em) {
 
   .banner-content {
-    z-index: 100;
     position: absolute;
     top: 10%;
     left: 5%;

@@ -772,12 +772,6 @@ optgroup {
 
 /* End Normalize.css code */
 
-label,
-.label-block {
-  display: block;
-  cursor: pointer;
-}
-
 [type="checkbox"] + label,
 [type="radio"] + label,
 .label-inline {
