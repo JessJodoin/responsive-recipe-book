@@ -5,6 +5,7 @@ html {
 
 .masthead {
   background-color: #cdd;
+  padding: 40px 0;
 }
 
 .nav-links {
@@ -40,7 +41,7 @@ html {
   width: 40px;
   height: 40px;
   position: absolute;
-  top: 0;
+  top: 100%;
   right: 0;
   background-image: url(../images/nav-checkbox.svg);
   background-size: 40px auto;
