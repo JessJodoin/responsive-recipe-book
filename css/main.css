@@ -17,6 +17,19 @@ html {
   color: #fff;
 }
 
+.nav {
+  display: none;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
 h1,
 .sans-font {
   font-family: "henderson sans", sans-serif;
