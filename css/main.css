@@ -7,11 +7,6 @@ html {
   background-color: #cdd;
 }
 
-.toggle-nav {
-  background-color: #cdd;
-  display: none;
-}
-
 .nav-links {
   text-decoration: none;
   color: #000;
@@ -20,46 +15,6 @@ html {
 .nav-links:hover {
   background-color: #900;
   color: #fff;
-}
-
-.nav-check {
-  position: absolute;
-  top: -3em;
-}
-
-.nav-check:checked ~ .toggle-nav {
-  display: block;
-}
-
-.nav-label {
-  cursor: pointer;
-}
-
-.container {
-  display: inline-block;
-  cursor: pointer;
-}
-
-.bar1, .bar2, .bar3 {
-  width: 35px;
-  height: 5px;
-  background-color: #333;
-  margin: 6px 0;
-  transition: 0.4s;
-}
-
-.change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-  transform: rotate(-45deg) translate(-9px, 6px) ;
-}
-
-.change .bar2 {
-  opacity: 0;
-}
-
-.change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-  transform: rotate(45deg) translate(-8px, -8px) ;
 }
 
 h1,
@@ -154,7 +109,6 @@ svg {
 svg:hover {
   color: #900;
 }
-
 
 .foot-nav {
   color: #000;
