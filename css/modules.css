@@ -35,7 +35,6 @@ footer,
 header,
 main,
 menu,
-nav,
 section,
 summary {
   display: block;
@@ -842,23 +841,6 @@ select {
   background-color: #fff;
   border: 2px solid #666;
   border-radius: 0;
-}
-
-[type="checkbox"] + label::before {
-  content: " ";
-  display: inline-block;
-  height: 1.8em;
-  margin-right: .3em;
-  position: relative;
-  vertical-align: middle;
-  top: -.1em;
-  width: 1.8em;
-
-  background-color: #fff;
-  background-size: cover;
-  border: 2px solid #666;
-
-  line-height: inherit;
 }
 
 [type="checkbox"]:checked + label::before {
