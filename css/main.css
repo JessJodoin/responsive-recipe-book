@@ -5,18 +5,53 @@ html {
 
 .masthead {
   background-color: #cdd;
-  padding: 40px 0;
 }
 
 .nav-links {
   text-decoration: none;
   color: #000;
-  background-color: #9aa;
 }
 
-.nav-links:hover {
+.nav-li:hover {
   background-color: #900;
   color: #fff;
+}
+
+.nav-li:hover .nav-links {
+  background-color: #900;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-check {
+  display: block;
+  background-color: #cdd;
+}
+
+.nav-label {
+  cursor: pointer;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-image: url("../images/nav-checkbox.svg");
+  background-size: 40px auto;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+
+.nav-check:checked ~ .nav-label {
+  background-color: #9aa;
+  background-position: center bottom;
+}
+
+.tog-nav-ul {
+  display: none;
+}
+
+.nav-check:checked ~ nav .tog-nav-ul {
+  display: block;
+  background-color: #9aa;
 }
 
 h1,
@@ -107,6 +142,10 @@ td {
   background-color: #f6f6f6;
 }
 
+.prep {
+  max-width: 30em;
+}
+
 .footer {
   color: #000;
   background-color: #cdd;
@@ -130,6 +169,7 @@ svg:hover {
   text-decoration: underline;
 }
 
+.nav-current,
 .foot-nav-current {
   color: #900;
   text-decoration: underline;
@@ -137,13 +177,17 @@ svg:hover {
 
 @media only screen and (min-width: 38em) {
 
-  .masthead label,
-  .masthead input {
+  .nav-label,
+  .nav-check {
     display: none;
   }
 
   .nav li {
     display: inline-block;
+  }
+
+  .nav {
+    background-color: #cdd;
   }
 
   .banner-content {
@@ -162,6 +206,10 @@ svg:hover {
     column-span: all;
   }
 
+  .prep {
+    max-width: 55em;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -174,6 +222,10 @@ svg:hover {
 
   .text-span {
     column-span: all;
+  }
+
+  .prep {
+    max-width: 100em;
   }
 
 }

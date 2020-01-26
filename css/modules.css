@@ -772,12 +772,6 @@ optgroup {
 
 /* End Normalize.css code */
 
-[type="checkbox"] + label,
-[type="radio"] + label,
-.label-inline {
-  display: inline-block;
-}
-
 input:not([type]),
 [type="text"],
 [type="number"],
